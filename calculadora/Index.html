@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+
+    <div id="calcular">
+        <Input id="display" readonly>
+        <div id="keys">
+            <button onclick="AdicionarADisplay('+')" class="operador-btn">+</button>
+            <button onclick="AdicionarADisplay('7')">7</button>
+            <button onclick="AdicionarADisplay('8')">8</button>
+            <button onclick="AdicionarADisplay('9')">9</button>
+            <button onclick="AdicionarADisplay('-')" class="operador-btn">-</button>
+            <button onclick="AdicionarADisplay('4')">4</button>
+            <button onclick="AdicionarADisplay('5')">5</button>
+            <button onclick="AdicionarADisplay('6')">6</button>
+            <button onclick="AdicionarADisplay('*')" class="operador-btn">*</button>
+            <button onclick="AdicionarADisplay('1')">1</button>
+            <button onclick="AdicionarADisplay('2')">2</button>
+            <button onclick="AdicionarADisplay('3')">3</button>
+            <button onclick="AdicionarADisplay('/')" class="operador-btn">/</button>
+            <button onclick="AdicionarADisplay('0')">0</button>
+            <button onclick="AdicionarADisplay('.')">.</button>
+            <button onclick="calcular()">=</button>
+            <button onclick="LimparDisplay()" class="operador-btn">C</button>
+        </div>
+    </div>
+
+    <script src="Index.js"></script>
+</body>
+</html>
